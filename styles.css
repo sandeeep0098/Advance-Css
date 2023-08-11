@@ -94,7 +94,7 @@ p {
   border-radius: 5px;
 } */
 
-.login-container {
+/* .login-container {
   text-align: center;
   width: 400px;
   margin: 100px auto;
@@ -130,4 +130,129 @@ strong {
   text-decoration: underline;
   color: black;
   cursor: pointer;
+} */
+
+/* .food-card {
+  width: 600px;
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 100px auto;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.image-container {
+  position: relative;
+}
+.image-container img {
+  width: 100%;
+  border-radius: 20px;
+}
+.text1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  backdrop-filter: blur(10px);
+  border: 1px solid lightgray;
+  color: white;
+  padding: 2px;
+  border-radius: 4px;
+}
+.text2 {
+  position: absolute;
+  bottom: 20px;
+  background-color: rgb(0, 149, 255);
+
+  color: white;
+  padding: 4px;
+  border-radius: 4px;
+  font-size: 22px;
+}
+.text3 {
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+  background-color: white;
+
+  color: black;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+hr {
+  border: 1px solid lightgray;
+}
+
+.food-desc p {
+  text-transform: uppercase;
+  font-size: 22px;
+  color: gray;
+}
+
+.bottom-text {
+  display: flex;
+  align-items: center;
+}
+.bottom-text img {
+  width: 25%;
+  height: 10%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.bottom-text p {
+  margin-left: 15px;
+  font-size: 24px;
+  color: gray;
+} */
+
+.card {
+  width: 900px;
+  height: 400px;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  background-image: url('https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-size: 100% 100%;
+  transform: rotate(0deg);
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  margin: 250px auto;
+}
+
+.card-container {
+  margin-top: 150px;
+}
+h1 {
+  font-weight: 900;
+  font-style: italic;
+  font-size: 45px;
+}
+
+p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  position: relative;
+}
+input {
+  width: 300px;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 0;
+}
+.search-icon {
+  position: absolute;
+  left: 300px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-size: cover;
 }
